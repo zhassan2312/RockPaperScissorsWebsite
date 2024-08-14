@@ -1,0 +1,219 @@
+.gameHeading p {
+    font-size: 34px;
+    font-weight: 600;
+    color: #fff;
+    text-align: center;
+    margin: 0px;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #051f3e;
+    width: 100%;
+    height: 100%;
+    color: #ffffff;
+}
+
+.gameHeading {
+    width: 100%;
+    display: flex;
+}
+
+.gameHeadingContainer {
+    background-color: #062955;
+    border-radius: 100px;
+    padding: 16px 64px;
+    box-sizing: border-box;
+    max-width: 1080px;
+    display: flex;
+    justify-content: center;
+    gap: 64px;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 16px;
+}
+
+.scoreCard {
+    width: 100px;
+    padding: 8px 16px;
+    border-radius: 20px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+    justify-content: center;
+}
+
+.scoreCardText {
+    font-size: 15px;
+    margin: 0px;
+    font-weight: normal;
+}
+
+.score {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    width: 100%;
+}
+
+.wins,
+.losses,
+.ties
+{
+   font-size:20px;
+   font-weight: bold;
+   margin: 0px;
+}
+
+
+.rockImage,
+.paperImage,
+.scissorsImage {
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+
+.mainbody {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.mainbackGroundSection {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    justify-content: center;
+    align-items: center;
+}
+
+.backGroundSection
+{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    justify-content: center;
+    align-items: center;
+}
+
+.gameContainer
+{
+    max-width:600px;
+    padding:0 32px;
+    box-sizing: border-box;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.gameSubContainer
+{
+    display: flex;
+    gap: 32px;
+    justify-content: center;
+    align-items: center;
+}
+
+.rockButton,
+.paperButton
+{
+    padding:64px;
+    box-sizing: border-box;
+    border: 2px solid #ffffff;
+    background-color: transparent;
+    border-radius: 1000px;
+    width:100%;
+}
+
+.scissorsButton
+{
+    padding:64px;
+    box-sizing: border-box;
+    border: 2px solid #ffffff;
+    background-color: transparent;
+    border-radius: 1000px;
+    width:50%;
+    height: 50%;
+}
+
+
+.resultImage
+{
+    width: 100%;
+}
+
+.resultContainer
+{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    justify-content: center;
+    align-items: center;
+}
+
+.resultContainer p
+{
+    font-size: 20px;
+    font-weight: normal;
+    margin: 0px;
+}
+
+.gameSubContainer
+{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.resultText
+{
+    width: 100%;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0px;
+}
+
+.resetButton
+{
+    padding: 16px 32px;
+    font-size: 20px;
+    font-weight: 600;
+    color: red;
+    background-color: rgb(255, 194, 194);
+    border-radius: 1000px;
+    cursor: pointer;
+}
+.playAgainButton
+{
+    padding: 16px 32px;
+    font-size: 20px;
+    font-weight: 600;
+    color: green;
+    background-color: rgb(162, 239, 162);
+    border-radius: 1000px;
+    cursor: pointer;
+}
+
+.headerContainer p
+{
+    font-size: 32px;
+    font-weight: 600;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}

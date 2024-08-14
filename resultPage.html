@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Rock Paper Scissors - Result</title>
+        <link rel="stylesheet" type="text/css" href="RockPaperScissors.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        <script src="script.js" defer></script>
+    </head>
+    <body>
+        <div class="backGroundSection">
+            <div class="gameHeadingContainer">
+                <div class="gameHeading">
+                    <p>
+                        Rock Paper Scissors
+                    </p>
+                </div>
+                <div class="score">
+                    <div style="color:green;" class="scoreCard">
+                        <p class="scoreCardText">
+                            Wins
+                        </p>
+                        <p class="wins"></p>
+                    </div>
+                    <div style="color:red;" class="scoreCard">
+                        <p class="scoreCardText">
+                            Losses
+                        </p>
+                        <p class="losses"></p>
+                    </div>
+                    <div style="color:blue;" class="scoreCard">
+                        <p class="scoreCardText">
+                            Ties
+                        </p>
+                        <p class="ties"></p>
+                    </div>
+                </div>
+            </div>
+            <div class="gameContainer">
+                <div class="gameSubContainer">
+                    <div class="resultContainer">
+                        <p>You chose</p>
+                        <img class="resultImage" id="playerChoiceImage" src="" alt="Player Choice">
+                    </div>
+                    <p class="resultText" id="resultText"></p>
+                    <div class="resultContainer">
+                        <p>Computer chose</p>
+                        <img class="resultImage" id="computerChoiceImage" src="" alt="Computer Choice">
+                    </div>
+                </div>
+                
+                
+            </div>
+            <div style="display: flex; gap:32px">
+                <button class="playAgainButton" onclick="playAgain()">Play Again</button>
+                <button class="resetButton" onclick="resetScore()">Reset Button</button>
+
+            </div>
+        </div>
+    </body>
+</html>
