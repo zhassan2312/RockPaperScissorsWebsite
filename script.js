@@ -99,3 +99,10 @@ function displayResults() {
 if (window.location.pathname.endsWith('resultPage.html')) {
     displayResults();
 }
+
+
+document.querySelector('.playAgain').addEventListener('click', playAgain);
+document.querySelector('.resetScore').addEventListener('click', resetScore);
+document.querySelector('.rockButton').addEventListener('click', () => playGame('rock'));
+document.querySelector('.paperButton').addEventListener('click', () => playGame('paper'));
+document.querySelector('.scissorsButton').addEventListener('click', () => playGame('scissors'));
